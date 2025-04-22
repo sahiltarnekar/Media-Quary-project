@@ -466,7 +466,7 @@ footer .text-center {
 /* Media Queries for max-width: 1024px */
 @media (max-width: 1024px) {
     .achive {
-        flex: 1 1 calc(33.33% - 20px); /* 3 items per row */
+        flex: 1 1 calc(33.33% - 20px); 
         max-width: calc(33.33% - 20px);
     }
 
@@ -474,8 +474,8 @@ footer .text-center {
         font-size: 2rem;
     }
 
-    .course {
-        flex: 1 1 calc(33.33% - 20px); /* 3 items per row */
+          .course {
+        flex: 1 1 calc(33.33% - 20px); 
         max-width: calc(33.33% - 20px);
     }
 }
