@@ -1,0 +1,209 @@
+
+/* Media Queries for max-width: 768px */
+@media (max-width: 768px) {
+        nav ul {
+                display: none; /* Hide the menu by default */
+                flex-direction: column;
+                background-color: var(--light-bg);
+                position: absolute;
+                top: 60px;
+                right: 20px;
+                width: 200px;
+                border-radius: 5px;
+                padding: 10px 20px;
+                line-height: 2;
+                font-size: 1rem;
+            }
+        
+            nav ul.active {
+                display: flex; /* Show the menu when active */
+            }
+        
+            .menu-toggle {
+                display: block; /* Show the toggle button */
+            }
+
+            .hero-img h2 {
+                font-size: 2rem;
+            }
+        
+            .hero-img p {
+                font-size: 1rem;
+            }
+        
+            .hero-img a {
+                font-size: 0.9rem;
+                padding: 8px 16px;
+            }
+
+        .content-row {
+            flex-direction: column;
+            gap: 30px;
+        }
+    
+        .content-half {
+            padding: 10px;
+        }
+    
+        .content-half h3 {
+            font-size: 1.5rem;
+        }
+    
+        .content-half p {
+            font-size: 0.9rem;
+        }
+        .course {
+            flex: 1 1 calc(50% - 20px); /* 2 items per row */
+            max-width: calc(50% - 20px);
+        }
+    
+        .courses h2 {
+            font-size: 2rem;
+        }
+    
+        .achive {
+            flex: 1 1 calc(50% - 20px); /* 2 items per row */
+            max-width: calc(50% - 20px);
+        }
+    
+        .achive h3 {
+            font-size: 1.3rem;
+        }
+    
+        .achive p {
+            font-size: 0.9rem;
+        }
+        
+        .contact h2 {
+                font-size: 2rem;
+            }
+        
+            .contact p {
+                font-size: 0.9rem;
+            }
+        
+            .contact .row {
+                flex-direction: column;
+            }
+        
+            .contact .w-50 {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        footer .row {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        footer .w-50 {
+            flex: 1 1 100%;
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+    
+        footer .text-right {
+            text-align: center;
+        }
+    
+    }
+
+    /* Media Queries for max-width: 480px */
+@media (max-width: 480px) {
+        .content-half h3 {
+            font-size: 1.2rem;
+        }
+    
+        .content-half p {
+            font-size: 0.8rem;
+        }
+    
+        .hero-img h2 {
+            font-size: 1.5rem;
+        }
+    
+        .hero-img p {
+            font-size: 0.9rem;
+        }
+    
+        .hero-img a {
+            font-size: 0.8rem;
+            padding: 6px 12px;
+        }
+    
+        .course {
+            flex: 1 1 100%; /* 1 item per row */
+            max-width: 100%;
+        }
+    
+        .courses h2 {
+            font-size: 1.8rem;
+        }
+    
+        .course h3 {
+            font-size: 1.2rem;
+        }
+    
+        .course p {
+            font-size: 0.9rem;
+        }
+    
+        .course a {
+            font-size: 0.9rem;
+            padding: 8px 16px;
+        }
+    
+        .achive {
+            flex: 1 1 100%; /* 1 item per row */
+            max-width: 100%;
+        }
+    
+        .achivement h2 {
+            font-size: 1.8rem;
+        }
+    
+        .achive h3 {
+            font-size: 1.2rem;
+        }
+    
+        .achive p {
+            font-size: 0.8rem;
+        }
+    
+        footer h3 {
+            font-size: 1.2rem;
+        }
+    
+        footer p {
+            font-size: 1rem;
+        }
+    
+        footer ul li a {
+            font-size: 1rem;
+        }
+    
+        footer .social-links li a {
+            font-size: 1rem;
+        }
+    
+        .contact h2 {
+            font-size: 1.8rem;
+        }
+    
+        .contact p {
+            font-size: 0.8rem;
+        }
+    
+        .contact input,
+        .contact textarea {
+            font-size: 0.9rem;
+        }
+    
+        .contact button {
+            font-size: 0.9rem;
+            padding: 8px 16px;
+        }
+    
+        .contact .contact-details p {
+            font-size: 0.8rem;
+        }
+    }
